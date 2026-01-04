@@ -7,7 +7,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: ["http://localhost:3000",process.env.REACT_FRONTEND_1,process.env.REACT_FRONTEND_2],
+  origin: process.env.REACT_FRONTEND_1,
 //   origin: "http://localhost:3000",
   credentials: true,
 }));
