@@ -1,0 +1,41 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Dependency directories
+node_modules
+/jspm_packages/
+
+# TypeScript cache
+.tsbuildinfo
+
+# Optional npm cache files
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Optional Yarn cache files
+.yarn-integrity
+.yarn-cache
+
+# Environment
+.env
+.env.test
+
+# Testing
+/coverage
+/.nyc_output
+/mocha.opts
+
+# Editors
+.vscode
+.idea
+.sublime-project
+.sublime-workspace
