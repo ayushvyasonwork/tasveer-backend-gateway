@@ -7,7 +7,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: "https://tasveer-one.vercel.app/",
+  origin: "https://tasveer-one.vercel.app",
 //   origin: process.env.REACT_FRONTEND_1,
 //   origin: "http://localhost:3000",
   credentials: true,
